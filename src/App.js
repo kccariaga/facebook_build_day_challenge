@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Home from './Home';
+import Main from './Main';
 
 class App extends Component {
   render() {
@@ -14,7 +14,7 @@ class App extends Component {
         
         <p className="App-intro">
           <div>
-             <Home /> {/* Loads the contents of Home.js */}
+             <Main /> 
           </div>
         </p>
       </div>

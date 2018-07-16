@@ -1,5 +1,6 @@
 import React from 'react';
 
+// Contents of the Home Page are for this javascript file
 const Home = () => (
     <div class = "container fluid">
         <div class="row">
@@ -10,7 +11,7 @@ const Home = () => (
                     <div class="card-body">
                         <h4 class="card-title">Are you looking to learn new skills?</h4>
                         <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                        <a href="#!" class="btn btn-primary">Find a Workshop today</a>
+                        <a href="./workshops" class="btn btn-primary">Find a Workshop today</a>
                     </div>
                 </div>
 
@@ -23,7 +24,7 @@ const Home = () => (
                     <div class="card-body">
                         <h4 class="card-title">Need a team to work on a project with</h4>
                         <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                        <a href="#!" class="btn btn-primary">Project Listings</a>
+                        <a href="./projects" class="btn btn-primary">Project Listings</a>
                     </div>
                 </div>
             </div>
