@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Main from './Main';
+import Header from './components/Header';
 
 /*
  *  These are the components of the website:
@@ -12,6 +13,7 @@ import Main from './Main';
  *      Home.js         contains the formatting for the (./) home Page
  *      Workshop.js     contains the formatting for ./workshops page
  *      Projects.js     contains the formatting for ./projects page
+ *      Header.js       contains basic navigation for App.js
  *  Edit the components in the corresponding javascript files
  * 
  *  -KRON
@@ -22,21 +24,22 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
+          {/* <img src={logo} className="App-logo" alt="logo" /> */}
           <h1 className="App-title">Let's Code Together</h1>
         </header>
-        <p className="App-intro">
-          <div>
+        {/* <p className="App-intro"> */}
+          {/* <div> */}
             {/* TODO: Add Code for Nav Bar Below */}
-            <nav class="nav flex-column">
+            <Header />
+            {/* <nav class="nav flex-column">
               <a class="nav-link active" href="./">Home</a>
               <a class="nav-link" href="./workshops">Workshops</a>
               <a class="nav-link" href="./projects">Projects </a>
-            </nav>
+            </nav> */}
             {/* This loads the contents of Main.js, which controls the routes to other webpages */}
              <Main /> 
-          </div>
-        </p>
+          {/* </div> */}
+        {/* </p> */}
       </div>
     );
   }
