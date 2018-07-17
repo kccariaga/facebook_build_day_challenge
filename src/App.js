@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
 import Main from './Main';
 import Header from './components/Header';
+import Workshops from './components/Workshops';
 
 /*
  *  These are the components of the website:
@@ -11,7 +12,7 @@ import Header from './components/Header';
  * _________________________________________________________________________________
  * 
  *      Home.js         contains the formatting for the (./) home Page
- *      Workshop.js     contains the formatting for ./workshops page
+ *      Workshops.js     contains the formatting for ./workshops page
  *      Projects.js     contains the formatting for ./projects page
  *      Header.js       contains basic navigation for App.js
  *  Edit the components in the corresponding javascript files
@@ -38,6 +39,7 @@ class App extends Component {
             </nav> */}
             {/* This loads the contents of Main.js, which controls the routes to other webpages */}
              <Main /> 
+             {/* <Workshops /> */}
           {/* </div> */}
         {/* </p> */}
       </div>

@@ -1,0 +1,31 @@
+.workshop-grid-holder {
+	background-color: red;
+	max-width: 100%;
+	box-sizing: border-box;
+	margin: 0 auto;
+}
+
+.workshop-grid {
+  background-color: blue;
+  max-width: 80%;
+  box-sizing: border-box;
+  margin: 0 auto; 
+}
+
+.grid-item {
+	/* background-color: darkseagreen; */
+  max-width: 31%;
+  
+  width: 31%;
+  /*height: 300px;*/
+  margin: 1%;
+  float: left;
+}
+
+.workshop-img {
+  max-width: 100%;
+}
+
+.workshop-h5 {
+  margin: 5px 0;
+}
