@@ -6,9 +6,10 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 import Home from './Home';
-import Workshops from './Workshops';
+import Workshops from './components/Workshops';
 import Projects from './Projects';
 // ****** Remember to add imports for every new Webpage!!!!!!!!!!
+// ^^^^ Yeah!!!
 
 
 
@@ -16,10 +17,10 @@ const Main = () => (
     <main>
         <Switch>
             <Route exact path='/' component= {Home} />
-            <Route path='/workshops' component={Workshops} />
+            <Route exact path='/workshops' component={Workshops} />
             <Route path='/projects' component={Projects} />
         </Switch>
     </main>
 )
 
-export default Main
+export default Main;
