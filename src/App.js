@@ -3,7 +3,6 @@ import React, { Component } from 'react';
 import './App.css';
 import Main from './Main';
 import Header from './components/Header';
-import Workshops from './components/Workshops';
 
 /*
  *  These are the components of the website:
@@ -28,21 +27,13 @@ class App extends Component {
           {/* <img src={logo} className="App-logo" alt="logo" /> */}
           <h1 className="App-title">Let's Code Together</h1>
         </header>
-        {/* <p className="App-intro"> */}
-          {/* <div> */}
-            {/* TODO: Add Code for Nav Bar Below */}
             <Header />
-            {/* <nav class="nav flex-column">
-              <a class="nav-link active" href="./">Home</a>
-              <a class="nav-link" href="./workshops">Workshops</a>
-              <a class="nav-link" href="./projects">Projects </a>
-            </nav> */}
-            {/* This loads the contents of Main.js, which controls the routes to other webpages */}
-             <Main /> 
-             {/* <Workshops /> */}
-          {/* </div> */}
-        {/* </p> */}
+            <Main />
+ 
       </div>
+      
+      
+
     );
   }
 }

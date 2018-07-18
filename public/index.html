@@ -39,8 +39,22 @@
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
 
-
     <!-- Optional JavaScript -->
+    <script src="https://www.gstatic.com/firebasejs/5.2.0/firebase.js"></script>
+    <script>
+      // Initialize Firebase
+      var config = {
+        apiKey: "AIzaSyBCWY-OZnb7AHDndPYJ3l04IP-PJniZxPk",
+        authDomain: "let-s-code-together.firebaseapp.com",
+        databaseURL: "https://let-s-code-together.firebaseio.com",
+        projectId: "let-s-code-together",
+        storageBucket: "let-s-code-together.appspot.com",
+        messagingSenderId: "82793379539"
+      };
+      firebase.initializeApp(config);
+    </script>
+
+
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
