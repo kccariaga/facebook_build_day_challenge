@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 // import logo from './logo.svg';
 import './App.css';
-import Main from './Main';
+import Router from './Router';
 import Header from './components/Header';
 
 /*
@@ -28,7 +28,7 @@ class App extends Component {
           <h1 className="App-title">Let's Code Together</h1>
         </header>
             <Header />
-            <Main />
+            <Router />
  
       </div>
       

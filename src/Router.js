@@ -14,7 +14,7 @@ import Login from './components/Login';
 
 
 
-const Main = () => (
+const Router = () => (
     <main>
         <Switch>
             <Route exact path='/' component= {Home} />
@@ -25,4 +25,4 @@ const Main = () => (
     </main>
 )
 
-export default Main;
+export default Router;
