@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import './App.css';
 import Router from './Router';
 import Header from './components/Header';
+import Home from './Home.js';
 
 /*
  *  These are the components of the website:
@@ -23,11 +24,12 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          {/* <img src={logo} className="App-logo" alt="logo" /> */}
-          <h1 className="App-title">Let's Code Together</h1>
-        </header>
+      {/* //   <header className="App-header"> */}
+          {/* // <img src={logo} className="App-logo" alt="logo" /> */}
+          {/* <h1 className="App-title">Let's Code Together</h1> */}
+        {/* // </header> */}
             <Header />
+            {/* <Home /> */}
             <Router />
  
       </div>
