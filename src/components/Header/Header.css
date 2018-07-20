@@ -1,0 +1,63 @@
+.header {
+  width: 100%;
+  margin: 0 0 10px 0;
+  clear: both;
+    float: left;
+}
+
+.header > h1 {
+  /* font-family: "Overpass Mono", monospace, sans-serif;
+  text-transform: lowercase;
+  margin: 20px 0 10px 0;
+  font-size: 1.6em; */
+
+
+  font-family: "Overpass Mono", monospace, sans-serif;
+    text-transform: lowercase;
+    margin: 30px 0 10px 0;
+    font-size: 1.3em;
+    float: left;
+    width: 45%;
+    display: inline;
+
+    
+}
+
+.header-links {
+  /* width: 100%; */
+
+  /* float: right;
+    display: inline;
+    margin: 20px 0 10px 0; */
+
+    width: 55%;
+    float: right;
+    display: inline;
+    margin: 25px 0 10px 0;
+
+}
+
+.header-links > ul {
+  list-style-type: none;
+  /* width: 100%; */
+  /* background-color: red; */
+  display: inline-flex;
+  padding: initial;
+  margin: 0 auto;
+}
+
+.header-links > ul li {
+  padding: 0 25px;
+  font-family: "Jua", Garamond, serif;
+  font-size: 1.2em;
+}
+
+.header-link {
+  color: slategray;
+  text-decoration: none;
+}
+
+.header-link:hover {
+  color: darkblue;
+  text-decoration: none;
+}

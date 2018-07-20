@@ -7,6 +7,7 @@
 // Figure out how to render only the filtered topics
 
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import './Workshops.css';
 
 class Workshops extends Component {
@@ -15,6 +16,11 @@ class Workshops extends Component {
     return(
 
       <div>
+
+        <div className='workshop-form-link'>
+          <Link to='/workshopsform'>Host your own workshop here!</Link>
+        </div>
+
         <div className='workshop-grid-holder'>
           <div className='workshop-grid'>
             <div className="grid-item">

@@ -16,7 +16,7 @@ import Projects from './Projects';
 const Router = () => (
     <main>
         <Switch>
-            <Route exact path='/' component= {Home} />
+            <Route exact path='/' component={Home} />
             <Route exact path='/workshops' component={Workshops} />
             <Route path='/projects' component={Projects} />
         </Switch>
