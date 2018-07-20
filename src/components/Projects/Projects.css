@@ -1,13 +1,13 @@
-.workshop-grid-holder {
+.project-grid-holder {
 	background-color: red;
 	max-width: 100%;
 	box-sizing: border-box;
 	margin: 0 auto;
 }
 
-.workshop-grid {
+.project-grid {
   background-color: blue;
-  max-width: 70%;
+  max-width: 80%;
   box-sizing: border-box;
   margin: 0 auto; 
 }
@@ -22,11 +22,11 @@
   float: left;
 }
 
-.workshop-img {
+.project-img {
   /* max-width: 100%; */
   width: 100%;
 }
 
-.workshop-h5 {
+.project-h5 {
   margin: 5px 0;
 }
