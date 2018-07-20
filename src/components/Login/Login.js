@@ -13,7 +13,9 @@ class Login extends Component {
 
     render() {
         return(
+            
             <p>Empty login page </p>
+
         )//ends return
     }// ENDS RENDER
 
