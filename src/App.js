@@ -11,9 +11,11 @@ import Header from './components/Header';
  * _________________________________________________________________________________
  * 
  *      Home.js         contains the formatting for the (./) home Page
- *      Workshops.js     contains the formatting for ./workshops page
+ *      Workshops.js    contains the formatting for ./workshops page
  *      Projects.js     contains the formatting for ./projects page
  *      Header.js       contains basic navigation for App.js
+ *      Login.js        contains the formatting for the Login Page
+ *      script.js       contains the information for creating and appending to firebase
  *  Edit the components in the corresponding javascript files
  * 
  *  -KRON
