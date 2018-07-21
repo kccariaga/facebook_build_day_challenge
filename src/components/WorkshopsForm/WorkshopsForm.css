@@ -1,0 +1,74 @@
+/* .h1-holder {
+  width: 100%;
+} */
+
+.workshop-h1 {
+  text-align: left;
+  font-family: 'Gaegu', sans-serif;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.workshop-form {
+  display: inline-block;
+  text-align: left;
+  width: 70%;
+}
+
+.workshop-form > div {
+  width: 100%;
+  margin: 0 auto;
+  font-family: courier;
+  text-transform: lowercase;
+}
+
+.workshop-form > div label {
+  margin: 10px 10px;
+
+}
+
+.workshop-form > div input {
+  margin: 5px 10px;
+  border: 1px dashed darkgray;
+  color: teal;
+  padding: 5px 10px;
+  font-weight: 600;
+}
+
+.workshop-form > div textarea {
+  margin: 5px 10px;
+  padding: 10px;
+  border: 1px dashed darkgray;
+  color: teal;
+  font-weight: 600;
+  width: 60%;
+  vertical-align: top;
+}
+
+/* .workshop-name {
+  width: 30%;
+  text-align: right;
+} */
+
+.workshop-form > div label {
+  width: 30%;
+  text-align: right;
+}
+
+.workshop-form > div input {
+  width: 60%;
+  text-align: left;
+}
+
+/* .workshop-input {
+  width: 60%;
+  text-align: left;
+} */
+
+.workshop-input::after {
+  content: 'dasdasd';
+}
+
+.workshop-form::after {
+  content: "dasdsadsadsada";
+}
