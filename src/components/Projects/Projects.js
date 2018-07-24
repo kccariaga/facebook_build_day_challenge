@@ -2,6 +2,7 @@
 //will go
 
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import './Projects.css';
 
 class Projects extends Component {
@@ -10,6 +11,11 @@ class Projects extends Component {
       return(
   
         <div>
+
+          <div className='workshop-form-link'>
+            <Link to='/projectsform'>Promote your own project here!</Link>
+          </div>
+
           <div className='project-grid-holder'>
             <div className='project-grid'>
               <div className="grid-item">
