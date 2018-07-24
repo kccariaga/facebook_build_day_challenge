@@ -1,0 +1,99 @@
+.project-details-h1-holder {
+  clear: both;
+}
+
+.project-details-h1 {
+  /* text-align: left; */
+  font-family: 'Gaegu', sans-serif;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.project-details {
+  display: inline-block;
+  text-align: left;
+  width: 70%;
+}
+
+.project-details > div {
+  width: 100%;
+  margin: 0 auto;
+  font-family: courier;
+  text-transform: lowercase;
+  padding: 10px 0;
+  clear: both;
+}
+
+.project-details > div label {
+  margin: 10px 10px;
+  width: 30%;
+  text-align: right;
+}
+
+.project-details > div input {
+  margin: 5px 10px;
+  border: 1px dashed darkgray;
+  color: teal;
+  padding: 5px 10px;
+  font-weight: 600;
+}
+
+.project-details > div div input {
+  width: 80%;
+  text-align: left;
+}
+
+.project-details > div textarea {
+  margin: 5px 10px;
+  padding: 10px;
+  border: 1px dashed darkgray;
+  color: teal;
+  font-weight: 600;
+  width: 80%;
+  vertical-align: top;
+}
+
+.project-details::after {
+  content: "};";
+  margin: 20px 0;
+  font-family: 'Gaegu', sans-serif;
+  font-size: 2.5em;
+  margin-left: 8%;
+}
+
+.project-input {
+  width: 65%;
+  float: right;
+}
+
+#project-submit-butt {
+  padding: 10px 15px;
+  margin: 20px 10%;
+  border: none;
+  background-color: lightslategrey;
+  color: white;
+  font-family: 'Gaegu', sans-serif;
+  font-size: 1.5em;
+  border-radius: 6px;
+  cursor: pointer;
+  float: right;
+}
+
+#project-submit-butt:hover {
+  background-color: lightsteelblue;
+}
+
+.project-input::before {
+  content: '"';
+  font-family: 'Gaegu', sans-serif;
+  font-size: 28px;
+  color: lightslategray;
+}
+
+.project-input::after {
+  content: '",';
+  font-family: 'Gaegu', sans-serif;
+  font-size: 28px;
+  color: lightslategray;
+}
+

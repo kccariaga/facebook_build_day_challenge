@@ -12,7 +12,7 @@ class Projects extends Component {
   
         <div>
 
-          <div className='workshop-form-link'>
+          <div className='project-form-butt'>
             <Link to='/projectsform'>Promote your own project here!</Link>
           </div>
 
@@ -20,7 +20,9 @@ class Projects extends Component {
             <div className='project-grid'>
               <div className="grid-item">
               
+              <Link to='/projectdetails'>
                 <img className="project-img" src="https://picsum.photos/400/300/?random" />
+              </Link>
                 <h5 className='project-h5'>let's code together</h5>
                 <p className='project-p'>thursday, july 19, 2018</p>
               </div>
