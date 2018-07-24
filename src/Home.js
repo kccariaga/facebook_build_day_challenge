@@ -6,79 +6,34 @@ import './Home.css';
 const Home = () => (
 
     <div className='home'>
-        <div className='workshops'>
 
-        Are you looking to learn new skills?
-        workshops
+        <div className="home-hero-image">
+            <div className="home-stripes"></div>
+            <div className="home-stripes"></div>
+            <div className="home-stripes"></div>
+            <div className="home-stripes"></div>
+            <div className="home-stripes"></div>
 
-        <a href="./workshops" class="btn btn-primary">Find a Workshop today</a>
-        asldmlkam   mkmalsdmkalsmdklasmdslkamdlaksmdlaksmdlaksmdklasmdlaksmdla asdoa smdka msdkal dmakld malskdm alskdmalskmdlask lorem123 
-        <Link to='./workshops' class="btn btn-primary">Find a Workshop Today</Link> 
+            <div className="home-stripes-red"></div>
+            <div className="home-stripes-red"></div>
+            <div className="home-stripes-red"></div>
+            <div className="home-stripes-red"></div>
         </div>
-        <div className='projects'>
-        <h4 class="card-title">Need a team to work on a project with</h4>
-        projects asiodmasodmas dmaksld mkasld mlaks dmalsk mdlask dmlaskm dlaksm dlaks mdlak mdlak mdlask mdalsk
-        <Link to='./projects' class="btn btn-primary">Project Listings</Link>
+
+        {/* <h1 className='home-h1-2'>Learn, work, and play.</h1><h1 className='home-h1-2'><strong>Let's code together.</strong></h1> */}
+
+            <div className='workshops'>
+                <h1 className='home-h1'>Want to learn new coding skills?</h1>
+                <Link to='./workshops' className="home-find-butt">Find a coding workshop near you</Link> 
+            </div>
+            
+            <div className='projects'>
+                <h1 className='home-h1'>Want to help develop a project?</h1>
+                <Link to='./projects'  className="home-find-butt">Let's find something to build</Link>
+            </div>
+
         </div>
-    </div>
 
-    // <div>
-    // .
-    // <div className="container-fluid">
-    //     <div className="row">
-    //         <div className='col-md-6'>
-    //             <div class="card">
-    //                 <h3 class="card-header">Workshops</h3>
-    //                 <div class="card-body">
-    //                     <h4 class="card-title">Are you looking to learn new skills?</h4>
-    //                     <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-    //                     <a href="./workshops" class="btn btn-primary">Find a Workshop today</a>
-    //                 </div>
-    //             </div>
-    //         <div className='col-md-6'>
-    //             <div class="card">
-    //                 <h3 class="card-header">Workshops</h3>
-    //                 <div class="card-body">
-    //                     <h4 class="card-title">Are you looking to learn new skills?</h4>
-    //                     <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-    //                     <a href="./workshops" class="btn btn-primary">Find a Workshop today</a>
-    //                 </div>
-    //             </div>
-    //         </div>
-    //     </div>
-    // </div>
-    // </div>
-    // </div>       
+);
 
-    // {/* </div> */}
-    //  {/* <div class = "container fluid"> */}
-    // {/* //     <div class="row"> */}
-    // {/* //         First card on the Row */}
-    // {/* //         <div class="container col-6"> */}
-    // {/* //             <div class="card"> */}
-    // {/* //                 <h3 class="card-header">Workshops</h3> */}
-    // {/* //                 <div class="card-body"> */}
-    // {/* //                     <h4 class="card-title">Are you looking to learn new skills?</h4> */}
-    // {/* //                     <p class="card-text">With supporting text below as a natural lead-in to additional content.</p> */}
-    // {/* //                     <a href="./workshops" class="btn btn-primary">Find a Workshop today</a> */}
-    // {/* //                 </div> */}
-    // {/* //             </div> */}
-
-    // {/* //         </div> */}
-
-    // {/* //         Second card on the row */}
-    // {/* //         <div class="col-6"> */}
-    // {/* //             <div class="card"> */}
-    // {/* //                 <h3 class="card-header">Projects</h3> */}
-    // {/* //                 <div class="card-body"> */}
-    // {/* //                     <h4 class="card-title">Need a team to work on a project with</h4> */}
-    // {/* //                     <p class="card-text">With supporting text below as a natural lead-in to additional content.</p> */}
-    // {/* //                     <a href="./projects" class="btn btn-primary">Project Listings</a> */}
-    // {/* //                 </div> */}
-    // {/* //             </div> */}
-    // {/* //         </div> */}
-    // {/* //     </div>  */}
-    // {/* // </div> */}
-    
-)
-export default Home
+export default Home;
