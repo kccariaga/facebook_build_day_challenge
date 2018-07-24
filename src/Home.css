@@ -22,6 +22,7 @@
   /* padding: 20px 0 0 0; */
   z-index: -1;
   /* background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,.7)); */
+  /* position: fixed; */
 }
 
 .home-stripes {
@@ -52,6 +53,15 @@
   margin: 35px 20px 0 20px;
   background-color: rgba(250,250,250,0.9);
 
+  /* border: 1px dashed darkgray;
+  width: 70%;
+  float: left;
+  padding: 0 5px 20px 5px;
+  margin: 35px 20px 0 20px;
+  background-color: rgba(250,250,250,0.9);
+  position: relative;
+  top: 15vh; */
+
 }
 
 .projects {
@@ -60,7 +70,7 @@
 
 .home-find-butt {
   padding: 10px 15px;
-  margin: 20px 10%;
+  /* margin: 20px 10%; */
   border: none;
   background-color: lightslategrey;
   color: white;

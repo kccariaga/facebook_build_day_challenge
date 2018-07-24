@@ -10,6 +10,7 @@ import Workshops from './components/Workshops';
 import WorkshopsForm from './components/WorkshopsForm';
 import Projects from './components/Projects';
 import ProjectsForm from './components/ProjectsForm';
+import ProjectDetails from './components/Projects/ProjectDetails';
 // import Login from './components/Login';
 // ****** Remember to add imports for every new Webpage!!!!!!!!!!
 // ^^^^ Yeah!!!
@@ -24,6 +25,7 @@ const Router = () => (
             <Route exact path='/workshopsform' component={WorkshopsForm} />
             <Route exact path='/projects' component={Projects} />
             <Route exact path='/projectsform' component={ProjectsForm} />
+            <Route exact path='/projectdetails' component={ProjectDetails} />
             {/* <Route exact path='/login' component={Login} /> */}
         </Switch>
     </main>
