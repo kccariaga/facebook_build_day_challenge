@@ -6,6 +6,16 @@ We are creating an app used to bring developers together. It helps by providing 
 
 ## progress log
 
+### monday, july 23, 2018
+
+1. Add final styling to Workshops form
+2. Add form to projects form page
+3. Add styling to Home page
+
+### saturday, july 21, 2018
+
+1. Add styling to Workshops form
+
 ### thursday, july 19, 2018
 
 1. Create Projects grid and components for Workshops and Projects form
