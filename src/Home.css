@@ -1,24 +1,88 @@
+.home-h1 {
+  font-family: courier, 'Gaegu', sans-serif;
+  margin: 20px 10px;
+}
+
+.home-h1-2 {
+  font-family: 'Gaegu', sans-serif;
+  font-family: "Overpass Mono", monospace, sans-serif;
+}
+
 .home {
   width: 80%;
   margin: 0 auto;
 }
 
-.workshops {
-  width: 48%;
+.home-hero-image {
+  position: absolute;
+  width: 80%;
+  height: 100vh;
+  background-color: rgba(180, 212, 223, 0.2);
+  top: 15vh;
+  /* padding: 20px 0 0 0; */
+  z-index: -1;
+  /* background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,.7)); */
+}
+
+.home-stripes {
+  width: 100%;
+  background-color: rgb(255, 199, 94);
+  margin: 0 0 40px 0;
+  height: 20px;
+  position: relative;
+  opacity: 0.6;
+}
+
+.home-stripes-red {
+  width: 100%;
+  background-color: rgb(221, 144, 144);
+  margin: 0 0 40px 0;
+  height: 20px;
+  position: relative;
+  opacity: 0.6;
+}
+
+
+.workshops,
+.projects {
+  border: 1px dashed darkgray;
+  width: 70%;
   float: left;
-  padding: 0 20px;
-  /* border: 2px gray solid; */
-  line-height: 1.8em;
-  background-color: lightsteelblue;
-  margin: 0 5px 0 0;
+  padding: 0 20px 20px 20px;
+  margin: 35px 20px 0 20px;
+  background-color: rgba(250,250,250,0.9);
+
 }
 
 .projects {
+  float:right;
+}
+
+.home-find-butt {
+  padding: 10px 15px;
+  margin: 20px 10%;
+  border: none;
+  background-color: lightslategrey;
+  color: white;
+  font-family: 'Gaegu', sans-serif;
+  font-size: 1.5em;
+  border-radius: 6px;
+  cursor: pointer;
+  /* float: right; */
+}
+
+.home-find-butt:hover {
+  text-decoration: none;
+  background-color: lightsteelblue;
+  color: white;
+}
+
+/* .projects {
   width: 48%;
   float: left;
   padding: 0 20px;
   /* border: 2px gray solid; */
-  line-height: 1.8em;
+  /* line-height: 1.8em;
   background-color: lightsteelblue;
   margin: 0 0 0 5px;
-}
+} */
