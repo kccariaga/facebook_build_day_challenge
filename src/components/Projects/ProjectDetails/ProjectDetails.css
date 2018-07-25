@@ -1,99 +1,101 @@
-.project-details-h1-holder {
+.project-details-body {
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 3%;
+  position: relative;
   clear: both;
+}
+
+.project-details-holder {
+  clear: both;
+  float: left;
+  width: 100%;
+}
+
+.project-details-info {
+  width: 70%;
+  float: left;
 }
 
 .project-details-h1 {
-  /* text-align: left; */
+  text-align: left;
   font-family: 'Gaegu', sans-serif;
   width: 100%;
   margin: 0 auto;
+  font-size: 4em;
+  text-transform: uppercase;
+  /* border-bottom: 2px solid linear-gradient(red, orange); */
 }
 
-.project-details {
-  display: inline-block;
+.project-details-info > p {
+  text-transform: initial;
+  font-family: courier, sans-serif;
+  font-size: 28px;
+  line-height: 1.4em;
   text-align: left;
-  width: 70%;
+  width: 100%;
 }
 
-.project-details > div {
+.project-details-coder-info {
+  width: 25%;
+  border-left: 1px solid lightpink;
+  text-align: left;
+  float: right;
+  /* background-color: gray; */
+}
+
+.project-details-coder-info > ul {
+  list-style-type: none;
+  padding-top: 8%;
+}
+
+.project-details-coder-info > ul li {
+  color: rgba(0,0,0,0.4);
+  font-family: "Overpass Mono", monospace, sans-serif;
+}
+
+.project-details-coder-info > ul li::before {
+  content: "\2022 ";
+  color: lightskyblue;
+}
+
+.project-details-skills {
   width: 100%;
-  margin: 0 auto;
-  font-family: courier;
-  text-transform: lowercase;
-  padding: 10px 0;
   clear: both;
 }
 
-.project-details > div label {
-  margin: 10px 10px;
-  width: 30%;
-  text-align: right;
+.project-details-skills > ul {
+  list-style-type: none;
+  display: inline-flex;
+  float: left;
+  padding: 0;
 }
 
-.project-details > div input {
-  margin: 5px 10px;
-  border: 1px dashed darkgray;
-  color: teal;
-  padding: 5px 10px;
-  font-weight: 600;
-}
-
-.project-details > div div input {
-  width: 80%;
-  text-align: left;
-}
-
-.project-details > div textarea {
-  margin: 5px 10px;
-  padding: 10px;
-  border: 1px dashed darkgray;
-  color: teal;
-  font-weight: 600;
-  width: 80%;
-  vertical-align: top;
-}
-
-.project-details::after {
-  content: "};";
-  margin: 20px 0;
-  font-family: 'Gaegu', sans-serif;
-  font-size: 2.5em;
-  margin-left: 8%;
-}
-
-.project-input {
-  width: 65%;
-  float: right;
-}
-
-#project-submit-butt {
-  padding: 10px 15px;
-  margin: 20px 10%;
+.project-details-skills > ul li button {
+  margin-right: 10px;
   border: none;
-  background-color: lightslategrey;
+  background-color: rgb(219, 113, 113);
   color: white;
-  font-family: 'Gaegu', sans-serif;
-  font-size: 1.5em;
-  border-radius: 6px;
+  font-size: 24px;
+  letter-spacing: 0.02em;
+  font-family: "Jua", Garamond, serif;
+  border-radius: 4px;
+  padding: 5px 10px;
   cursor: pointer;
-  float: right;
 }
 
-#project-submit-butt:hover {
-  background-color: lightsteelblue;
+.project-details-skills > ul li button:hover {
+  background-color: rgb(194, 96, 96);
 }
 
-.project-input::before {
-  content: '"';
-  font-family: 'Gaegu', sans-serif;
-  font-size: 28px;
-  color: lightslategray;
+.project-details-skills > ul li button:focus {
+  outline: 0;
 }
 
-.project-input::after {
-  content: '",';
-  font-family: 'Gaegu', sans-serif;
-  font-size: 28px;
-  color: lightslategray;
+.project-details-stats {
+  clear: both;
+    /* position: relative; */
+    width: 100%;
+    /* padding-top: 5%; */
+    text-align: left;
 }
-
