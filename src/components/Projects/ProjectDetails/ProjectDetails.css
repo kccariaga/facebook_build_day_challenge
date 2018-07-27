@@ -1,7 +1,7 @@
 .project-details-body {
   width: 90%;
   margin: 0 auto;
-  padding-top: 3%;
+  padding-top: 2%;
   position: relative;
   clear: both;
 }
@@ -74,7 +74,7 @@
 .project-details-skills > ul li button {
   margin-right: 10px;
   border: none;
-  background-color: rgb(219, 113, 113);
+  background-color: rgb(212, 155, 155);
   color: white;
   font-size: 24px;
   letter-spacing: 0.02em;
@@ -94,8 +94,137 @@
 
 .project-details-stats {
   clear: both;
-    /* position: relative; */
-    width: 100%;
-    /* padding-top: 5%; */
-    text-align: left;
+  position: relative;
+  width: 100%;
+  /* padding-top: 5%; */
+  text-align: left;
+  top: 30px;
+}
+
+.project-details-goals > h1 {
+  font-family: 'Gaegu', sans-serif;
+  text-transform: uppercase;
+  font-size: 3.5em;
+}
+
+.project-details-goals > ul {
+  font-family: "Overpass Mono", monospace, sans-serif;
+  list-style-type: square;
+}
+
+.project-details-timeline > h1 {
+  font-family: 'Gaegu', sans-serif;
+  text-transform: uppercase;
+  font-size: 3.5em;
+}
+
+.timeline-left {
+  max-height: 100%;
+  height: 100%;
+  width: 30px;
+  float: left;
+}
+
+.timeline-right {
+  border-left: 5px solid gray;
+  max-height: 100%;
+  height: 100%;
+  width: 70%;
+  float: left;
+}
+
+.content::before{
+  content: "";
+  color: yellow;
+  float: left;
+  padding: 0 -10px;
+  /* margin-left: -5%; */
+  background-color: lightblue;
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  border: 2px solid lightblue;
+  position: absolute;
+  margin-left: -22px;
+  margin-top: 12px;
+}
+
+.content {
+  border-color: white;
+  position: relative;
+  padding: 10px 10px 10px 0px;
+  /* background-color: lightblue; */
+  border-style: solid;
+  border-width: 10px 10px 10px 10px;
+}
+
+.content > h2 {
+  margin: 0 20px;
+    font-family: "Jua", Garamond, serif;
+    font-size: 34px;
+    text-transform: lowercase;
+}
+
+.content > p {
+  margin: 0 20px;
+  font-family: "Overpass Mono", monospace, sans-serif;
+  padding: 6px 0 0 20px;
+}
+
+.project-details-images {
+  clear: both;
+  position: relative;
+  width: 90%;
+  top: 70px;
+}
+
+.project-details-images > h1 {
+  font-family: 'Gaegu', sans-serif;
+  text-transform: uppercase;
+  font-size: 3.5em;
+  text-align: left;
+}
+
+.project-details-images > div {
+  width: 300px;
+  float: left;
+  height: 200px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  background-color: lightblue;
+}
+
+.project-details-team {
+  clear: both;
+  position: relative;
+  width: 100%;
+  top: 70px;
+}
+
+.project-details-team > h1 {
+  font-family: 'Gaegu', sans-serif;
+  text-transform: uppercase;
+  font-size: 3.5em;
+  text-align: left;
+}
+
+.project-details-team > div {
+  width: 30%;
+  float: left;
+  height: 100%;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  background-color: lightpink;
+}
+
+.project-details-team .pd-teammate-photoholder {
+  background-color: yellow;
+  /* width: 100%; */
+  /* margin: 10px; */
+  height: 200px;
+  width: 200px;
+  margin: 0 auto;
+  border-radius: 5%;
+
+
 }
