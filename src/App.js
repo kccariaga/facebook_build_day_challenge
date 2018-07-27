@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import './App.css';
 import Router from './Router';
 import Header from './components/Header';
+// import './reset.css';
 // import Home from './Home.js';
 
 /*

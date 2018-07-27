@@ -6,6 +6,15 @@ We are creating an app used to bring developers together. It helps by providing 
 
 ## progress log
 
+### thursday, july 26, 2018
+
+1. Added images and team member cards to individual project page
+2. Added CSS reset then regretted everything
+
+### wednesday, july 25, 2018
+
+1. Added timeline to individual project page
+
 ### tuesday, july 24, 2018
 
 1. Add pages for individual workshop and project details
