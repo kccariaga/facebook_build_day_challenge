@@ -6,6 +6,11 @@ We are creating an app used to bring developers together. It helps by providing 
 
 ## progress log
 
+### friday, july 27, 2018
+
+1. Adds basic template for Workshop Details page
+2. Adds link from Workshops page, adds routers
+
 ### thursday, july 26, 2018
 
 1. Added images and team member cards to individual project page
