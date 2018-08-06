@@ -3,6 +3,8 @@ import React, { Component } from 'react';
 import './App.css';
 import Router from './Router';
 import Header from './components/Header';
+import Navigation from './Navigation';
+
 // import Home from './Home.js';
 
 /*
@@ -29,6 +31,8 @@ class App extends Component {
       <div className="App">
         <Header />
         <Router />
+        <Navigation />
+        
       </div>
 
     );

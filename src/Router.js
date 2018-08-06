@@ -7,7 +7,7 @@ import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 import Home from './Home';
 import Workshops from './components/Workshops';
-import Projects from './Projects';
+import Projects from './components/Projects';
 // ****** Remember to add imports for every new Webpage!!!!!!!!!!
 // ^^^^ Yeah!!!
 

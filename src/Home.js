@@ -8,16 +8,16 @@ const Home = () => (
     <div className='home'>
         <div className='workshops'>
 
-        Are you looking to learn new skills?
-        workshops
+        <h4 class = "card-title">Are you looking to learn new skills? workshops</h4>
 
-        <a href="./workshops" class="btn btn-primary">Find a Workshop today</a>
-        asldmlkam   mkmalsdmkalsmdklasmdslkamdlaksmdlaksmdlaksmdklasmdlaksmdla asdoa smdka msdkal dmakld malskdm alskdmalskmdlask lorem123 
+        asldmlkam   mkmalsdmkalskal dmakld malskdm alskdmalskmdlask lorem123 
+        <br/>
         <Link to='./workshops' class="btn btn-primary">Find a Workshop Today</Link> 
         </div>
         <div className='projects'>
         <h4 class="card-title">Need a team to work on a project with</h4>
         projects asiodmasodmas dmaksld mkasld mlaks dmalsk mdlask dmlaskm dlaksm dlaks mdlak mdlak mdlask mdalsk
+        <br /> 
         <Link to='./projects' class="btn btn-primary">Project Listings</Link>
         </div>
     </div>
