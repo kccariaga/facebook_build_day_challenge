@@ -1,13 +1,14 @@
 import React, { Component } from 'react';
-import './WorkshopsForm.css';
+import './ProjectsForm.css';
 
-class WorkshopsForm extends Component {
-
+class ProjectsForm extends Component {
+  
   state = {
     name: '',
     location: '',
     tech: '',
-    description: ''
+    description: '',
+    people: ''
   }
 
   handleChange = event => {
@@ -21,27 +22,24 @@ class WorkshopsForm extends Component {
     console.log('got it!');
   }
 
-
-  
   render() {
     return (
-      
       <div>
 
         <div className="h1-holder">
-          <h1 className="workshop-h1">let newWorkshop = &#123;</h1>
+          <h1 className="project-h1">let newProject = &#123;</h1>
         </div>
 
         <form 
-          className="workshop-form" 
+          className="project-form" 
           onSubmit={this.handleSubmit} 
         >
 
           <div>
-            <label htmlFor="workshop name">
-              Workshop Name:
+            <label htmlFor="project name">
+              Project Name:
             </label>
-            <div className="workshop-input">
+            <div className="project-input">
               <input 
                 onChange={this.handleChange}
                 name="name" 
@@ -52,15 +50,16 @@ class WorkshopsForm extends Component {
           </div>
 
           <div>
-            <label htmlFor="workshop location">
-              Workshop Location:
+            <label htmlFor="project location">
+              Project Location:
             </label>
-            <div className="workshop-input">
+            <div className="project-input">
               <input 
                 onChange={this.handleChange}
                 name="location" 
                 value={this.state.value}
-                type="text" 
+                type="text"
+                placeholder="You can also allow remote work." 
               />
             </div>
           </div>
@@ -69,7 +68,7 @@ class WorkshopsForm extends Component {
             <label htmlFor="technology involved">
               Technology Involved:
             </label>
-            <div className="workshop-input">
+            <div className="project-input">
               <input 
                 onChange={this.handleChange}
                 name="techInvolved" 
@@ -80,31 +79,41 @@ class WorkshopsForm extends Component {
           </div>
 
           <div>
-            <label htmlFor="workshop description">
-              Workshop Description:
+            <label htmlFor="project description">
+              Project Description:
             </label>
-            <div className="workshop-input">
-              <textarea rows="8" cols="50" placeholder="Talk about what activities that participants can expect during your workshop!">
+            <div className="project-input">
+              <textarea rows="8" cols="50" placeholder="Pitch your project. Why should we be interested? What is your goal?">
+              </textarea>
+            </div>
+          </div>
+
+          <div>
+            <label htmlFor="desired skills">
+              Desired Skills:
+            </label>
+            <div className="project-input">
+              <textarea rows="8" cols="50" placeholder="List the kind of people you want, including coders, artists, designers, writers, etc.">
               </textarea>
             </div>
           </div>
 
         <div>
           <input 
-            id="workshop-submit-butt"
+            id="project-submit-butt"
             type="submit" 
-            value="Post your workshop!" 
+            value="Post your project!" 
             onSubmit={this.handleSubmit}
           />
         </div>
 
         </form>
-        
+
       </div>
 
     ); // ENDS RETURN
   } // ENDS RENDER
 } // ENDS COMPONENT
 
-export default WorkshopsForm;
+export default ProjectsForm;
 

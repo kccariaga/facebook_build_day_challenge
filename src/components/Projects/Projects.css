@@ -1,3 +1,32 @@
+.project-form-butt {
+    padding: 10px 15px;
+    /* margin: 20px 10%; */
+    border: none;
+    background-color: lightslategrey;
+    color: white;
+    font-family: 'Gaegu', sans-serif;
+    font-size: 1.5em;
+    border-radius: 6px;
+    cursor: pointer;
+    width: 50%;
+    /* float: right; */
+    position: relative;
+    clear: both;
+    margin: 20px auto;
+    /* color: white; */
+}
+
+.project-form-butt > a {
+  color: white;
+    text-decoration: none;
+}
+
+.project-form-butt:hover {
+  color: white;
+  background-color: lightsteelblue;
+  text-decoration: none;
+}
+
 .project-grid-holder {
 	background-color: red;
 	max-width: 100%;
@@ -7,7 +36,7 @@
 
 .project-grid {
   background-color: blue;
-  max-width: 80%;
+  max-width: 70%;
   box-sizing: border-box;
   margin: 0 auto; 
 }

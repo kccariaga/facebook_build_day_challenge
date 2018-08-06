@@ -6,6 +6,34 @@ We are creating an app used to bring developers together. It helps by providing 
 
 ## progress log
 
+### friday, july 27, 2018
+
+1. Adds basic template for Workshop Details page
+2. Adds link from Workshops page, adds routers
+
+### thursday, july 26, 2018
+
+1. Added images and team member cards to individual project page
+2. Added CSS reset then regretted everything
+
+### wednesday, july 25, 2018
+
+1. Added timeline to individual project page
+
+### tuesday, july 24, 2018
+
+1. Add pages for individual workshop and project details
+
+### monday, july 23, 2018
+
+1. Add final styling to Workshops form
+2. Add form to projects form page
+3. Add styling to Home page
+
+### saturday, july 21, 2018
+
+1. Add styling to Workshops form
+
 ### thursday, july 19, 2018
 
 1. Create Projects grid and components for Workshops and Projects form

@@ -3,8 +3,12 @@ import React, { Component } from 'react';
 import './App.css';
 import Router from './Router';
 import Header from './components/Header';
+<<<<<<< HEAD
 import Navigation from './Navigation';
 
+=======
+// import './reset.css';
+>>>>>>> 1fa84d0014a72018daf328f0e3227cade6cf5eb2
 // import Home from './Home.js';
 
 /*

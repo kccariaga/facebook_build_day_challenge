@@ -1,17 +1,17 @@
-.workshop-h1 {
+.project-h1 {
   text-align: left;
   font-family: 'Gaegu', sans-serif;
   width: 60%;
   margin: 0 auto;
 }
 
-.workshop-form {
+.project-form {
   display: inline-block;
   text-align: left;
   width: 70%;
 }
 
-.workshop-form > div {
+.project-form > div {
   width: 100%;
   margin: 0 auto;
   font-family: courier;
@@ -20,13 +20,13 @@
   clear: both;
 }
 
-.workshop-form > div label {
+.project-form > div label {
   margin: 10px 10px;
   width: 30%;
   text-align: right;
 }
 
-.workshop-form > div input {
+.project-form > div input {
   margin: 5px 10px;
   border: 1px dashed darkgray;
   color: teal;
@@ -34,12 +34,12 @@
   font-weight: 600;
 }
 
-.workshop-form > div div input {
+.project-form > div div input {
   width: 80%;
   text-align: left;
 }
 
-.workshop-form > div textarea {
+.project-form > div textarea {
   margin: 5px 10px;
   padding: 10px;
   border: 1px dashed darkgray;
@@ -49,7 +49,7 @@
   vertical-align: top;
 }
 
-.workshop-form::after {
+.project-form::after {
   content: "};";
   margin: 20px 0;
   font-family: 'Gaegu', sans-serif;
@@ -57,12 +57,12 @@
   margin-left: 8%;
 }
 
-.workshop-input {
+.project-input {
   width: 65%;
   float: right;
 }
 
-#workshop-submit-butt {
+#project-submit-butt {
   padding: 10px 15px;
   margin: 20px 10%;
   border: none;
@@ -75,18 +75,18 @@
   float: right;
 }
 
-#workshop-submit-butt:hover {
+#project-submit-butt:hover {
   background-color: lightsteelblue;
 }
 
-.workshop-input::before {
+.project-input::before {
   content: '"';
   font-family: 'Gaegu', sans-serif;
   font-size: 28px;
   color: lightslategray;
 }
 
-.workshop-input::after {
+.project-input::after {
   content: '",';
   font-family: 'Gaegu', sans-serif;
   font-size: 28px;

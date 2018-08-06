@@ -2,6 +2,7 @@
 //will go
 
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import './Projects.css';
 
 class Projects extends Component {
@@ -10,11 +11,18 @@ class Projects extends Component {
       return(
   
         <div>
+
+          <div className='project-form-butt'>
+            <Link to='/projectsform'>Promote your own project here!</Link>
+          </div>
+
           <div className='project-grid-holder'>
             <div className='project-grid'>
               <div className="grid-item">
               
+              <Link to='/projectdetails'>
                 <img className="project-img" src="https://picsum.photos/400/300/?random" />
+              </Link>
                 <h5 className='project-h5'>let's code together</h5>
                 <p className='project-p'>thursday, july 19, 2018</p>
               </div>

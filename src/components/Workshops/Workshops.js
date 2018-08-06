@@ -23,12 +23,13 @@ class Workshops extends Component {
 
         <div className='workshop-grid-holder'>
           <div className='workshop-grid'>
-            <div className="grid-item">
-            
-              <img className="workshop-img" src="https://picsum.photos/400/300/?random" />
-              <h5 className='workshop-h5'>html5 intro</h5>
-              <p className='workshop-p'>thursday, july 19, 2018</p>
-            </div>
+            <Link to='./workshopdetails'>
+              <div className="grid-item">
+                <img className="workshop-img" src="https://picsum.photos/400/300/?random" />
+                <h5 className='workshop-h5'>html5 intro</h5>
+                <p className='workshop-p'>thursday, july 19, 2018</p>
+              </div>
+              </Link>
             <div className="grid-item">
               <img className="workshop-img" src="https://picsum.photos/400/300/?random" />
               <h5 className='workshop-h5'>accessibility for all</h5>
